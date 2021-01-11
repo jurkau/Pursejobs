@@ -10,7 +10,7 @@ public class Purse {
     private Purse() {
     }
 
-    public static Purse createPurse(double plafond, int nbOperationMax, CodeSecret codeSecret) throws CreationPurseException {
+   /* public static Purse createPurse(double plafond, int nbOperationMax, CodeSecret codeSecret) throws CreationPurseException {
         purse = Mockito.mock(Purse.class);
         try {
             Mockito.doThrow(new RejetTransactionException()).when(purse).debite(Mockito.anyDouble());
@@ -19,6 +19,8 @@ public class Purse {
         }
 
     }
+
+    */
 
     public double getSolde() {
         return 0;
