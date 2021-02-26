@@ -1,4 +1,4 @@
 package izly;
 
-class DepassementPlafondException extends Exception {
+public class DepassementPlafondException extends Exception {
 }

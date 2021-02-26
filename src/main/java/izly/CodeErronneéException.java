@@ -1,4 +1,4 @@
 package izly;
 
-class CodeErronnéeException extends Exception{
+public class CodeErronnéeException extends Exception{
 }

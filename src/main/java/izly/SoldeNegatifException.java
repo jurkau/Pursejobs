@@ -1,4 +1,4 @@
 package izly;
 
-class SoldeNegatifException extends Exception {
+public class SoldeNegatifException extends Exception {
 }
