@@ -1,7 +1,7 @@
 package izly;
 
 import org.mockito.Mockito;
-import secretCode.CodeBloquéException;
+import secretCode.CodeBloqueException;
 import secretCode.CodeSecret;
 
 public class Purse {
@@ -30,7 +30,7 @@ public class Purse {
         try {
             if (!codeSecret.verifierCode(codeProposé))
                 throw new RejetTransactionException(new CodeErronnéException());
-        } catch (CodeBloquéException e) {
+        } catch (CodeBloqueException e) {
             throw new RejetTransactionException(e);
         }
         prepareTransaction(montant);
